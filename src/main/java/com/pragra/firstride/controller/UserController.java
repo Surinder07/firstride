@@ -19,4 +19,7 @@ public class UserController {
     public ResponseEntity<UserEntity> createUser(@RequestBody UserEntity user){
          return userService.createUser(user);
     }
+    public ResponseEntity<UserEntity> deleteUser(@RequestBody UserEntity user){
+        //return userService.createUser(user);
+    }
 }
